@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Think Bot</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Think Bot</h1>
+        <div class="pick">
+            <p>(pick a number between 1 and 100)</p>
+        </div>
+        <div class="center" id="screen">
+            <p id="guess" class="guess">Is Your Number</p>
+            <p id="number" class="number"></p>
+        </div>
+        <div class="center2">
+            <button id="less" class="first" onclick="data(); setTimeout(data3, 100);">less</button>
+            <button id="yes" class="second" onclick="data2();">yes</button>
+            <button id="more" class="third" onclick="data(); setTimeout(data3, 100);">more</button> 
+        </div>
+        <div class="center2">
+            <button id="reset" class="fourth" onClick="window.location.reload();">reset</button>
+        </div>
+        <script src="./think.js"></script>
+    </body>

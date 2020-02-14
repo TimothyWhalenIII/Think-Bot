@@ -1,0 +1,51 @@
+h1 {
+    font-size: 6vw;
+    text-align: center;
+}
+.pick {
+    font-size: 2vw;
+    text-align: center;
+}
+.center {
+    border-radius: 15%;
+    background: lightgray;
+    padding: 1% 0 9% 0;
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    text-align: center;
+}
+.center2 {
+    display: flex;
+    justify-content: center;
+}
+.number {
+    font-size: 10vw;
+    font-weight: bold;
+}
+.guess {
+    font-size: 3.5vw;
+}
+button {
+    padding: 2% 5%;
+    background-color: lightblue;
+    border-color: black;
+    border-width: 3px;
+    font-size: 2vw;
+    margin: 1.5% 1%;
+} 
+.first {
+    border-radius: 50% 15% 15% 50%;
+}
+.second {
+    border-radius: 15%;
+}
+.third {
+    border-radius: 15% 50% 50% 15%;
+}
+.fourth {
+    padding: 2% 10%;
+    font-size: 2vw;
+    margin: 1%;
+    border-radius: 50%;
+}
